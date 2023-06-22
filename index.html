@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lernantino // Web Developer</title>
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+</head>
+<body>
+    <header>
+        <h1>Lernantino</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div>
+            <h3>Cool Subtitle Here!</h3>
+        </div>
+    </section>
+
+    <main>
+        <!-- CREATE CONTAINER CLAA FOR EACH SECTION -->
+        <section id="about" class="container">
+            <div class="left-title" id="about-title">
+                <h2>About Me</h2>
+            </div>
+            <article id="about-text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque deserunt voluptates maiores perspiciatis quasi accusantium ad, voluptatum impedit deleniti sunt recusandae voluptatem ea ipsam dolore molestiae praesentium iure quibusdam sapiente?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, illo. Voluptatem quia laboriosam atque sequi modi eaque numquam quod molestias. Consequatur sunt nisi temporibus vitae nam beatae cum, nesciunt nostrum?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nam voluptatem odit iste impedit accusamus enim, dignissimos possimus quaerat ea dolores ullam nemo maxime, adipisci architecto voluptates. Quidem, ad numquam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis commodi ullam incidunt non illo. Dolore ab vero velit qui doloribus ipsa, neque ea porro doloremque odit dolores, similique omnis numquam!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti suscipit iure praesentium obcaecati enim dicta earum, provident repellat maiores dolores perspiciatis totam et exercitationem eos. Natus numquam amet aspernatur impedit!
+                </p>    
+                <p>  
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur at in sit tempora quibusdam! Magni nemo deserunt consectetur omnis eveniet quos ipsam! Consectetur doloribus soluta omnis, neque harum dolorem sit?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor amet accusantium impedit quis, dolores eaque, beatae doloribus sit ab aut dolorum sequi illo. Exercitationem incidunt quod minus molestiae cum dolor!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod enim natus. Necessitatibus, provident modi. Veniam cumque earum accusantium molestias, voluptatem error dolorum exercitationem pariatur impedit officiis dicta corporis modi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, reiciendis velit! Minima laudantium illo deleniti commodi similique alias consectetur perspiciatis cupiditate, nostrum quo nulla, eveniet quos beatae! Facere, facilis tempora?
+                </p>
+            </article>
+        </section>
+        <section id="work" class="container">
+            <div class="left-title">
+                <h2>Work</h2>
+            </div>
+            <div class="work-gallery">
+                <!-- CREATE CUSTOM DIV FOR LARGE IMG -->
+                <div class="image-card-large">
+                    <img src="assets\images\02-portfolio-4.jpg" alt="a beach with surfers" height="700px" width="800px">
+                    <div class="image-text-large">
+                        <h2>Surf Report</h2>
+                        <p>MERN Stack</p>
+                    </div>
+                </div> 
+                <!-- BEGIN GALLERY FOR BOTTOM 4 -->
+                <div class="bottom-4">
+                    <!-- CREATE DIV TO FLEX AND CREATE COLUMN -->
+                    <div class="column">
+                        <!-- CREATE 4 IMG CARD DIV -->
+                        <div class="image-card">
+                            <img src="assets\images\02-portfolio-1.jpg" alt="a wall of red LED lights" height="275px" width="550px">
+                            <!-- USE DIV TO ADJUST AND REPOSITION TEXT -->
+                            <div class="image-text">
+                                <h2>LED Wall</h2>
+                                <p>Node/IoT</p>
+                            </div> 
+                        </div>
+                        <div class="image-card">
+                            <img src="assets\images\02-portfolio-3.jpg" alt="a blue car drives over a blue and pink background" height="300px" width="500px">
+                            <div class="image-text">
+                                <h2>Pastel Puzzels</h2>
+                                <p>MERN Stack</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="image-card">
+                            <img src="assets\images\02-portfolio-2.jpg" alt="a laptop" height="300px" width="500px">
+                            <div class="image-text">
+                                <h2>Calculator</h2>
+                                <p>React/JavaScript/CSS</p>
+                            </div> 
+                        </div>
+                        <div class="image-card">
+                            <img src="assets\images\02-run-buddy.jpg" alt="a person getting ready to run" height="300px" width="500px">
+                            <div class="image-text">
+                                <h2>Run Buddy</h2>
+                                <p>HTML/CSS</p>
+                            </div> 
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <section class="page-section contact" id="contact">
+            <h2>Contact Me</h2>
+            <div>
+              <address>
+                <a href="tel:+15555555555">555.555.5555</a>
+                <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+                <a href="#">Spotify</a>
+              </address>
+            </div>
+          </section>
+    </main>
+    
+</body>
+</html>
+
+
+<!-- THIS DID NOT WORK :( -->
+                <!-- <ul class="bottom-4">
+                    <li>
+                        <div class="image-card" id="red-LED">
+                            <img src="assets\images\02-portfolio-1.jpg" alt="a wall of red LED lights">
+                            <div class="image-text">
+                                <h4>LED Wall</h4>
+                                <h6>Node/Iot</h6>
+                            </div> 
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-card" id="calc">
+                            <img src="assets\images\02-portfolio-1.jpg" alt="a wall of red LED lights">
+                            <div class="image-text">
+                                <h4>Calculator</h4>
+                                <h6>React/JavaScript/CSS</h6>
+                            </div> 
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-card" id="pastel">
+                            <img src="assets\images\02-portfolio-1.jpg" alt="a wall of red LED lights">
+                            <div class="image-text">
+                                <h4>Pastel Puzzles</h4>
+                                <h6>Node/Iot</h6>
+                            </div> 
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-card" id="run-buddy">
+                            <img src="assets\images\02-portfolio-1.jpg" alt="a wall of red LED lights">
+                            <div class="image-text">
+                                <h4>LED Wall</h4>
+                                <h6>Node/Iot</h6>
+                            </div> 
+                        </div>
+                    </li>
+                </ul> -->
